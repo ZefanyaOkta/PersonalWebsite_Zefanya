@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zefanya Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="myCss.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+        <section>
+        <nav>
+        <!--logo----------------------------------------->
+            <img src="image/logo.png" class="logo">
+        <!--menu----------------------------------------->
+            <ul>
+                <li><a href="#" class="nav-active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!--text--------------------------------------->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'm Zefanya</p>
+            <p>UI / UX Designer &<br>Web Developer</p>
+            <a href="#contact"><button class="about-btn">Contact Me</button></a>
+            <a href="Zefanya_CV.pdf"><button class="down-cv">Download CV</button></a>
+        </div>
+        <!--model--------------->
+            <img src="image/zefa.png" class="model" alt="model">
+        </section>
+        <!--about-section------------------------------------>
+        <div class="about-container" id="about">
+        <!--about-text---------->
+          <div class="about-text">
+            <p>About Me</p>
+            <p>Web Developer (Beginner)</p>
+            <p>Hello there! I'm Zefanya Oktaviana Indrasanti, a 20 year old student majoring in Information System<br>for Business at Ciputra University in Surabaya. I found my passion for technology during high school.<br>Actually i like this project but i'm dizzy looking for the code. Good luck to me:)))</p>
+          </div>
+        </div>
+
+  <!--portfolio---------------------------------------->
+    <div class="port" id="portfolio">
+  <!--text------------->
+        <div class="port-text">
+            <p>Portfolio</p>
+            <p>Hi, this is my portfolio.</p>
+        </div>
+
+  <!--box---------------------------------------------->
+    <div class="box-container">
+            <div class="gallery">
+              <a target="_blank" href="image/wix.png">
+                <img src="image/wix.png" alt="Wix Cnacks" width="600" height="400">
+              </a>
+              <div class="desc">Create and Design a Website with Wix</div>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" href="image/mockup.png">
+                <img src="image/mockup.png" alt="mockup" width="600" height="400">
+              </a>
+              <div class="desc">Design a Website and Prototype with Figma</div>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" href="image/company.png">
+                <img src="image/company.png" alt="company" width="600" height="400">
+              </a>
+              <div class="desc">Create Company Application Using Windows Form</div>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" href="image/customer.png">
+                <img src="image/customer.png" alt="customer" width="600" height="400">
+              </a>
+              <div class="desc">Create E-Commerce Application using Windows Form </div>
+            </div>
+    </div>
+    </div>
+
+    <!-- Slideshow container-------------------------------->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="image/wix.png" style="width:100%">
+    <div class="text">Cnacks Website (Wix)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="image/mockup.png" style="width:100%">
+    <div class="text">WatchOut Mockup(Figma)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="image/company.png" style="width:100%">
+    <div class="text">WatchOut Company</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="image/customer.png" style="width:100%">
+    <div class="text">WatchOut Customer</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<!--contact--------------------------->
+    <div class="container-contact" id="contact">
+      <div class="contact-me">Contact<br>Me</div>
+      <img src="image/mail.png" class="mail" alt="mail">
+      <form class="formBox" action="mailto:zefanyaoktaviana@gmail.com"
+      method="POST"
+      enctype="text/plain"
+      name="EmailForm">
+    
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" placeholder="Your name">
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="Email" placeholder="What's your email?">
+    
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Type your message here" style="height:80px"></textarea>
+    
+        <input type="submit" value="Submit"> <!--belom jadi wekekekkek T.T -->
+    
+      </form>
+    </div>
+
+  <!--footerrrr akhirnya:))))--------------------------------->
+    <footer>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/seventeennews"><i class="fab fa-facebook-f"></i></a>
+	      <a href="https://twitter.com/pledis_17"><i class="fab fa-twitter"></i></a>
+	      <a href="https://www.instagram.com/zefanyaokta_"><i class="fab fa-instagram"></i></a>
+	      <a href="https://api.whatsapp.com/send?phone=6282359113646&text=Hai%20:)"><i class="fab fa-whatsapp"></i></a>
+	    </div>
+  <!--copyright---------------->
+	      <p class="copyright">Copyright &copy; 2021 Zefanya Oktaviana</p>
+    </footer>
+  <!--social-attach-bar------------->
+    <div class="social">
+      <a href="https://www.facebook.com/seventeennews"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/pledis_17"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/zefanyaokta_"><i class="fab fa-instagram"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=6282359113646&text=Hai%20:)"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script src="myjs.js"></script>
+    </body>
+</html>
